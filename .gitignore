@@ -1,0 +1,11 @@
+**/node_modules/
+**/public/
+**/db.json
+**/*.log
+**/.DS_Store
+**/.deploy*/
+**/.env
+**/.idea/
+**/Thumbs.db
+**/_local.yml
+**/source/history/
