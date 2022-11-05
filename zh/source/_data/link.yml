@@ -1,5 +1,8 @@
 - class_name: "友链"
-  class_desc: "按添加时间排序"
+  class_desc: |
+    <p>按添加时间排序</p>
+    <p>直接联系我就可以换友链啦</p>
+  
   link_list: 
     - {
       name: "KHonoka's Blog",
@@ -129,7 +132,7 @@
     }
     - {
       name: "CSL 讲废话",
-      descr: "*老师 tql",
+      descr: "*队别冲了",
       link: "https://blog.cubercsl.site",
       avatar: "https://blog.cubercsl.site/avatar-120.png"
     }
@@ -170,3 +173,22 @@
       avatar: "https://piggy.moe/avatar.jpg"
     }
 
+- class_name: "我的信息"
+  class_desc: | 
+    <p>如果想把我添加到您的友链，直接参考下面这个卡片的信息就可以啦！</p>&nbsp;
+    <p>名字的话，这里给了几个我中意的用例，你也可以随意称呼我。</p>
+
+    <pre class="line-numbers language-text" data-language="text">
+      <code class="language-text">name: " 化猫の幻 / H3arn / 安然姐姐 "
+      descr: "我會常記先生好，我會常想南山幽。"
+      link: "https://h3a.moe"
+      avatar: "https://cdn.jsdelivr.net/gh/h3a-moe/h3a-moe-asset/img/myavatar.jpg"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code>
+    </pre> 
+
+    效果如下： 
+
+  link_list: 
+    - name: " 化猫の幻 / H3arn / 安然姐姐 "
+      descr: "我會常記先生好，我會常想南山幽。"
+      link: "https://h3a.moe"
+      avatar: "https://cdn.jsdelivr.net/gh/h3a-moe/h3a-moe-asset/img/myavatar.jpg"
