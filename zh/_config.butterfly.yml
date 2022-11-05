@@ -95,10 +95,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/bg/bg-0.jpg
+index_img: /img/bg/bg-8.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/bg/bg-8.jpg
+default_top_img: /img/bg/bg-0.jpg
 
 # The banner image of archive page
 archive_img: /img/bg/bg-5.jpg
@@ -513,9 +513,9 @@ site_verification:
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
-index_site_info_top:
+index_site_info_top: 
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -611,8 +611,10 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: Ubuntu
+  code-font-family: 
+    - 'JetBrains Mono'
+    -  monospace
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -849,7 +851,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
@@ -887,6 +889,9 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom/css/link.css">
+    - <link rel="stylesheet" href="/custom/css/jbm.css">
+    - <link rel="stylesheet" href="/custom/css/uuu.css">
+    - <link rel="stylesheet" href="/custom/css/header.css">
   bottom:
     # - <script src="xxxx"></script>
 

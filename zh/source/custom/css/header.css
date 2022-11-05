@@ -1,0 +1,22 @@
+ 
+@media screen and (min-width: 768px) {
+    /* page header title height alignment */
+    #page-header #page-site-info {
+        top: 50%;
+    }
+    /* page header image height reset */
+    #page-header.not-home-page {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    /* post header image height reset */
+    #page-header.post-bg {
+        height: 100vh;
+    }
+    /* post info height re-align */
+    #page-header #post-info {
+        top: 43%
+    }
+}
