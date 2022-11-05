@@ -6,7 +6,7 @@ type: "link"
 comments:
 description:
 keywords:
-top_img:
+top_img: /img/bg/bg-3.jpg
 mathjax:
 katex:
 aside:

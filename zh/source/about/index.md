@@ -1,6 +1,7 @@
 ---
 title: About
 type: "about"
+top_img: /img/bg/bg-8.jpg
 date: 2021-08-24 23:00:11
 updated: 2021-11-06 10:53:00
 ---
