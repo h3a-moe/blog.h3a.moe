@@ -1,0 +1,6 @@
+- class_name: "友链"
+  class_desc: |
+    <p>按添加时间排序</p>
+    <p>直接联系我就可以换友链啦</p>
+  
+  link_list: 
