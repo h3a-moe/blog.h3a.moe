@@ -83,7 +83,7 @@ Telegram bot:   [at]h3a_portal_bot
 
 本人之前在某水群随手转发了公孙欠扁的 PGP 算号[神文](https://www.douban.com/note/763978955/)，不料算号的不良风气由此再次泛滥，以至于带来了被恶意碰撞 uid 的风险，深感愧疚（90度鞠躬）。
 
-考虑到目前常见的算号方案已经能轻易碰撞后 14 个十六进制数字，使用末尾的 16 个 hex 数字作为 ID 已经不再可靠，在算力进一步强化之前，暂时可以通过验证所有子密钥的指纹来预防中间人。
+考虑到目前常见的算号方案已经能轻易碰撞后 14 个十六进制数字，使用末尾的 16 个 hex 数字作为 ID 已经不再可靠，在算力进一步强化之前，暂时可以通过**验证所有子密钥的指纹**来预防中间人。
 
 导入前，请先验证**所有**公钥的指纹：
 
@@ -105,5 +105,38 @@ sub   cv25519 2021-09-07 [E] [expires: 2024-07-15]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
 sub   ed25519 2021-09-07 [A] [expires: 2024-07-15]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
+```
+
+另附公钥原文一份
+
+```PGP
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
+/iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
+ZT6IlgQTFggAPgIbAQULCQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBDZIZKOhr0F0
+2b3nxmB2y7oj6YpXBQJhxgHeBQkFXdJyAAoJEGB2y7oj6YpXu20A/3wSIBY1H7aU
+0ItkrI4eICdRSfClO4tbneOtTMzj14gPAP4lzQRqmUMGZeMf3NEQLDyvzVvxeG+c
+BkC3eHlxCL8/CoiQBBMWCAA4FiEENkhko6GvQXTZvefGYHbLuiPpilcFAmE2zE4C
+GwEFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQYHbLuiPpilfjPwD+JrzWYGCG
+FZmvdsYrDgGDv9/22b5AbyHbha0TEiTbYbMBAPA7bdjeyKdCm01JrPPw6LpzcMXb
+IXy4HYYQ0TKifpcIuDMEYTbMsxYJKwYBBAHaRw8BAQdAtb1RvhxVJ56/iMv2/GWj
+FcGuy5XPVXKx+07Ap9nYROaI9QQYFggAJgIbAhYhBDZIZKOhr0F02b3nxmB2y7oj
+6YpXBQJhxgH0BQkFXdINAIF2IAQZFggAHRYhBLcdqYSOF8bncqPDxP0RBslEXULQ
+BQJhNsyzAAoJEP0RBslEXULQJi8A+wawWpZsNIADJmEs4mUkElzcX7wQP5jh6PCI
+6hTAhZLuAQCeaVMy6FLuBey4rkUTMcvqwp11A8caUOEbN9wTXUdCCwkQYHbLuiPp
+ileXOQD+MPNAaZ+VtuITUUhZFESf+x3LXJwtGMoEnN5XBPzbLAwBALKvqF602u04
+ItgTp34OH2YPLlIf+SlKI7JBIhLvmyQIuDgEYTbM1hIKKwYBBAGXVQEFAQEHQNEO
+UMFONDEpCIAT51FskJQ3xpQ3CR8CxMCqIPshU3MSAwEIB4h+BBgWCAAmAhsMFiEE
+Nkhko6GvQXTZvefGYHbLuiPpilcFAmHGAgYFCQVd0eoACgkQYHbLuiPpilc6FAD7
+BP7KlNzL6ukoKgEfLtYlpMc12aAXUyYdSYvvL4xFElYA/jnwlHuEBkAOGePmDiMF
+eeza/5LoZTkMqix9h52wCrkCuDMEYTbM5BYJKwYBBAHaRw8BAQdAEZ3p5owTW2oo
+Re4j4GLA6rotKydFY+2AZdGSNBnNhdSIfgQYFggAJgIbIBYhBDZIZKOhr0F02b3n
+xmB2y7oj6YpXBQJhxgIRBQkFXdHcAAoJEGB2y7oj6YpXKhcA/2s2vi8jBrPCpC6G
+OdqBukw7RKh5SRoF16t0GPh22sd+AP9dS4QozW9tv8k8RfkHtFYANDmNEHq8/6W1
+Sl99yK/YBQ==
+=pyvr
+-----END PGP PUBLIC KEY BLOCK-----
+
 ```
 
