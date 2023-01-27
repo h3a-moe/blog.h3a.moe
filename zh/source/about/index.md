@@ -29,13 +29,13 @@ H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
 
 写得很细碎很偏门很 trivial, 希望能帮到需要的人（比如我自己）。
 
-目前 [放在 Cloudflare Pages 上](https://blog-h3a-moe.pages.dev) ，[在 Netlify 也有备份](https://blog-h3a-moe.netlify.app) 。
+目前仅放在 [Cloudflare Pages](https://blog-h3a-moe.pages.dev) 上，在其他平台没有部署。
 
-~~本站的 [一部分图标资源](https://hexo.fluid-dev.com/docs/icon/) 来自 [阿里云 CDN](https://at.alicdn.com/t/font_1736178_lbnruvf0jn.css) 。~~
+<!--~~本站的 [一部分图标资源](https://hexo.fluid-dev.com/docs/icon/) 来自 [阿里云 CDN](https://at.alicdn.com/t/font_1736178_lbnruvf0jn.css) 。~~--> 
 
-本站现已更换了主题，摆脱了对 iconfont 的依赖。
+本站已更换了主题，摆脱了对 iconfont 的依赖。
 
-This site is also available in [English](https://blog.h3a.moe/en). 
+~~This site is also available in [English](https://blog.h3a.moe/en).~~ 英文版欠太多了，can't keep up! 咕咕咕
 
 
 
@@ -43,9 +43,7 @@ This site is also available in [English](https://blog.h3a.moe/en).
 
 Hi, 这里是 `H3arn` .
 
-是个渺小的人。
-
-过时，愚笨，固执，绿眼。
+是个渺小的人。过时，愚笨，固执，绿眼。
 
 对 STEAM 学科感兴趣，尤其是计算机和网络。
 
@@ -75,25 +73,29 @@ Telegram bot:   [at]h3a_portal_bot
 
 {% endnote %}
 
-可以在 `openpgp.org`  [下載](https://keys.openpgp.org/vks/v1/by-fingerprint/364864A3A1AF4174D9BDE7C66076CBBA23E98A57) 。
+从这些站点取得我的公钥： [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc)
 
-或从 [GitHub](https://github.com/H3arn.gpg) 取得
+[Codeberg](https://codeberg.org/H3arn.gpg) {% label 注意！"cipherTypeByte"被改了 orange %}
 
+{% note info flat %}
 
+或许你会在 `keys.openpgp.org`, `pub.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。
 
-本人之前在某水群随手转发了公孙欠扁的 PGP 算号[神文](https://www.douban.com/note/763978955/)，不料算号的不良风气由此再次泛滥，以至于带来了被恶意碰撞 uid 的风险，深感愧疚（90度鞠躬）。
+{% endnote %}
 
-考虑到目前常见的算号方案已经能轻易碰撞后 14 个十六进制数字，使用末尾的 16 个 hex 数字作为 ID 已经不再可靠，在算力进一步强化之前，暂时可以通过**验证所有子密钥的指纹**来预防中间人。
+<!--本人之前在某水群随手转发了公孙欠扁的 PGP 算号[神文](https://www.douban.com/note/763978955/)，不料算号的不良风气由此再次泛滥，以至于带来了被恶意碰撞 uid 的风险，深感愧疚（90度鞠躬）。-->
 
-导入前，请先验证**所有**公钥的指纹：
+<!--考虑到目前常见的算号方案已经能轻易碰撞后 14 个十六进制数字，使用末尾的 16 个 hex 数字作为 ID 已经不再可靠，在算力进一步强化之前，暂时可以通过**验证所有子密钥的指纹**来预防中间人。-->
+
+<!--导入前，请先验证**所有**公钥的指纹：-->
+
+**必须在确认四个指纹均正确后，方可将公钥导入。**
 
 ```bash
 $ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
 ```
 
 **四个指纹均**应当与下方给出的**完全一致**。
-
-**必须在确认四个指纹均正确后，方可将公钥导入。**
 
 ```
 pub   ed25519 2021-09-07 [C] [expires: 2024-07-15]
@@ -114,28 +116,24 @@ sub   ed25519 2021-09-07 [A] [expires: 2024-07-15]
 
 mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
 /iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
-ZT6IlgQTFggAPgIbAQULCQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBDZIZKOhr0F0
-2b3nxmB2y7oj6YpXBQJhxgHeBQkFXdJyAAoJEGB2y7oj6YpXu20A/3wSIBY1H7aU
-0ItkrI4eICdRSfClO4tbneOtTMzj14gPAP4lzQRqmUMGZeMf3NEQLDyvzVvxeG+c
-BkC3eHlxCL8/CoiQBBMWCAA4FiEENkhko6GvQXTZvefGYHbLuiPpilcFAmE2zE4C
-GwEFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQYHbLuiPpilfjPwD+JrzWYGCG
-FZmvdsYrDgGDv9/22b5AbyHbha0TEiTbYbMBAPA7bdjeyKdCm01JrPPw6LpzcMXb
-IXy4HYYQ0TKifpcIuDMEYTbMsxYJKwYBBAHaRw8BAQdAtb1RvhxVJ56/iMv2/GWj
-FcGuy5XPVXKx+07Ap9nYROaI9QQYFggAJgIbAhYhBDZIZKOhr0F02b3nxmB2y7oj
-6YpXBQJhxgH0BQkFXdINAIF2IAQZFggAHRYhBLcdqYSOF8bncqPDxP0RBslEXULQ
-BQJhNsyzAAoJEP0RBslEXULQJi8A+wawWpZsNIADJmEs4mUkElzcX7wQP5jh6PCI
-6hTAhZLuAQCeaVMy6FLuBey4rkUTMcvqwp11A8caUOEbN9wTXUdCCwkQYHbLuiPp
-ileXOQD+MPNAaZ+VtuITUUhZFESf+x3LXJwtGMoEnN5XBPzbLAwBALKvqF602u04
-ItgTp34OH2YPLlIf+SlKI7JBIhLvmyQIuDgEYTbM1hIKKwYBBAGXVQEFAQEHQNEO
-UMFONDEpCIAT51FskJQ3xpQ3CR8CxMCqIPshU3MSAwEIB4h+BBgWCAAmAhsMFiEE
-Nkhko6GvQXTZvefGYHbLuiPpilcFAmHGAgYFCQVd0eoACgkQYHbLuiPpilc6FAD7
-BP7KlNzL6ukoKgEfLtYlpMc12aAXUyYdSYvvL4xFElYA/jnwlHuEBkAOGePmDiMF
-eeza/5LoZTkMqix9h52wCrkCuDMEYTbM5BYJKwYBBAHaRw8BAQdAEZ3p5owTW2oo
-Re4j4GLA6rotKydFY+2AZdGSNBnNhdSIfgQYFggAJgIbIBYhBDZIZKOhr0F02b3n
-xmB2y7oj6YpXBQJhxgIRBQkFXdHcAAoJEGB2y7oj6YpXKhcA/2s2vi8jBrPCpC6G
-OdqBukw7RKh5SRoF16t0GPh22sd+AP9dS4QozW9tv8k8RfkHtFYANDmNEHq8/6W1
-Sl99yK/YBQ==
-=pyvr
+ZT6IkAQTFggAOAIbAQIeAQIXgAUJBV3SchYhBDZIZKOhr0F02b3nxmB2y7oj6YpX
+BQJjznKKAgsJAhUJBRYCAwEAAAoJEGB2y7oj6YpXNgEBAN/9+2vOcl7skA+13Wd1
+QQWWkGsw0iSATLiazHsD20BLAP9y+vt5IpbtsEws6WfmmsRbJlxplW64VUtwIWMQ
+N7xmArgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
+sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCYcYB
+9AUJBV3SDQCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
+CRD9EQbJRF1C0CYvAPsGsFqWbDSAAyZhLOJlJBJc3F+8ED+Y4ejwiOoUwIWS7gEA
+nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXlzkA/jDz
+QGmflbbiE1FIWRREn/sdy1ycLRjKBJzeVwT82ywMAQCyr6hetNrtOCLYE6d+Dh9m
+Dy5SH/kpSiOyQSIS75skCLg4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
+E+dRbJCUN8aUNwkfAsTAqiD7IVNzEgMBCAeIfgQYFggAJgIbDBYhBDZIZKOhr0F0
+2b3nxmB2y7oj6YpXBQJhxgIGBQkFXdHqAAoJEGB2y7oj6YpXOhQA+wT+ypTcy+rp
+KCoBHy7WJaTHNdmgF1MmHUmL7y+MRRJWAP458JR7hAZADhnj5g4jBXns2v+S6GU5
+DKosfYedsAq5ArgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
+LSsnRWPtgGXRkjQZzYXUiH4EGBYIACYCGyAWIQQ2SGSjoa9BdNm958Zgdsu6I+mK
+VwUCYcYCEQUJBV3R3AAKCRBgdsu6I+mKVyoXAP9rNr4vIwazwqQuhjnagbpMO0So
+eUkaBderdBj4dtrHfgD/XUuEKM1vbb/JPEX5B7RWADQ5jRB6vP+ltUpffciv2AU=
+=aqmi
 -----END PGP PUBLIC KEY BLOCK-----
 
 ```
