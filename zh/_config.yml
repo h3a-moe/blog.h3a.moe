@@ -102,10 +102,20 @@ theme: butterfly
 deploy:
   type: ''
 
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: false
+
 feed:
-  type: atom
-  path: atom.xml
-  limit: false
+    limit: 0
+    order_by: "-date"
+    tag_dir: "tag"
+    # category_dir: "category"
+    # rss:
+    #     enable: true
+    #     # template: "themes/theme/layout/_alternate/rss.ejs"
+    #     output: "rss.xml"
 
 search:
   path: search.xml
