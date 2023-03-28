@@ -1,4 +1,4 @@
-update:
+force_update:
 	git fetch origin
 	git reset FETCH_HEAD --hard
 	git clean -fdx
