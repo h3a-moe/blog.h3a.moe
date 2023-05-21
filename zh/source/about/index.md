@@ -79,7 +79,7 @@ Telegram bot:   [at]h3a_portal_bot
 
 {% note info flat %}
 
-或许你会在 `keys.openpgp.org`, `pub.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。
+或许你会在 `keys.openpgp.org`, `pgp.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。
 
 {% endnote %}
 
@@ -100,7 +100,7 @@ $ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
 ```
 pub   ed25519 2021-09-07 [C] [expires: 2024-07-15]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
-uid           [ultimate] H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
+uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
 sub   ed25519 2021-09-07 [S] [expires: 2024-07-15]
       B71D A984 8E17 C6E7 72A3  C3C4 FD11 06C9 445D 42D0
 sub   cv25519 2021-09-07 [E] [expires: 2024-07-15]
