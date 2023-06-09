@@ -12,4 +12,5 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+random: true
 ---
