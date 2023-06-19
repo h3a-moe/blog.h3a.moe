@@ -75,7 +75,7 @@ Telegram bot:   [at]h3a_portal_bot
 
 从这些站点取得我的公钥： [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc)
 
-[Codeberg](https://codeberg.org/H3arn.gpg) {% label 注意！"cipherTypeByte"被改了 orange %}
+[Codeberg](https://codeberg.org/H3arn.gpg) （不推荐）
 
 {% note info flat %}
 
