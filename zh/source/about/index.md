@@ -33,7 +33,7 @@ H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
 
 <!--~~本站的 [一部分图标资源](https://hexo.fluid-dev.com/docs/icon/) 来自 [阿里云 CDN](https://at.alicdn.com/t/font_1736178_lbnruvf0jn.css) 。~~--> 
 
-本站已更换了主题，摆脱了对 iconfont 的依赖。
+<!--本站已更换了主题，摆脱了对 iconfont 的依赖。-->
 
 ~~This site is also available in [English](https://blog.h3a.moe/en).~~ 英文版欠太多了，can't keep up! 咕咕咕
 
@@ -41,7 +41,7 @@ H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
 
 ## 关于我
 
-Hi, 这里是 `H3arn` .
+Hi, 这里是 `H3arn` . 读作 "Hearn", 也可呼作「安然」。
 
 是个渺小的人。过时，愚笨，固执，绿眼。
 
@@ -58,7 +58,6 @@ Hi, 这里是 `H3arn` .
 
 ```text
 e-mail:         root[at]h3a[dot]moe
-Telegram bot:   [at]h3a_portal_bot
 ```
 
 
