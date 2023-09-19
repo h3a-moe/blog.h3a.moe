@@ -64,23 +64,25 @@ e-mail:         root[at]h3a[dot]moe
 
 ## PGP
 
-{% note warning %}
+请看 [这里](https://h3a.moe/about#pgp)
 
-**这个密钥将在 2024-07-15 失效。**
+<!-- {% note warning %} -->
 
-**届时若没有续期且没有新的密钥发布，那我想必正在承受牢狱之灾，或是早已不在人间。**
+<!-- **这个密钥将在 2024-07-15 失效。** -->
 
-{% endnote %}
+<!-- **届时若没有续期且没有新的密钥发布，那我想必正在承受牢狱之灾，或是早已不在人间。** -->
 
-从这些站点取得我的公钥： [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc)
+<!-- {% endnote %} -->
 
-[Codeberg](https://codeberg.org/H3arn.gpg) （不推荐）
+<!-- 从这些站点取得我的公钥： [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc) -->
 
-{% note info flat %}
+<!-- [Codeberg](https://codeberg.org/H3arn.gpg) （不推荐） -->
 
-或许你会在 `keys.openpgp.org`, `pgp.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。
+<!-- {% note info flat %} -->
 
-{% endnote %}
+<!-- 或许你会在 `keys.openpgp.org`, `pgp.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。 -->
+
+<!-- {% endnote %} -->
 
 <!--本人之前在某水群随手转发了公孙欠扁的 PGP 算号[神文](https://www.douban.com/note/763978955/)，不料算号的不良风气由此再次泛滥，以至于带来了被恶意碰撞 uid 的风险，深感愧疚（90度鞠躬）。-->
 
@@ -88,15 +90,15 @@ e-mail:         root[at]h3a[dot]moe
 
 <!--导入前，请先验证**所有**公钥的指纹：-->
 
-**必须在确认四个指纹均正确后，方可将公钥导入。**
+<!-- **必须在确认四个指纹均正确后，方可将公钥导入。** -->
 
-```bash
-$ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
-```
+<!-- ```bash -->
+<!-- $ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg -->
+<!-- ``` -->
 
-**四个指纹均**应当与下方给出的**完全一致**。
+<!-- **四个指纹均**应当与下方给出的**完全一致**。 -->
 
-```
+<!-- ```
 pub   ed25519 2021-09-07 [C] [expires: 2024-07-15]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
 uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
@@ -106,11 +108,11 @@ sub   cv25519 2021-09-07 [E] [expires: 2024-07-15]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
 sub   ed25519 2021-09-07 [A] [expires: 2024-07-15]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
-```
+``` -->
 
-另附公钥原文一份
+<!-- 另附公钥原文一份 -->
 
-```PGP
+<!-- ```PGP
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
@@ -135,5 +137,4 @@ eUkaBderdBj4dtrHfgD/XUuEKM1vbb/JPEX5B7RWADQ5jRB6vP+ltUpffciv2AU=
 =aqmi
 -----END PGP PUBLIC KEY BLOCK-----
 
-```
-
+``` -->
