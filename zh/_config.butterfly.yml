@@ -136,7 +136,10 @@ anchor:
     enable: true
     always_show: true
     icon: \23 # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: false # when you scroll in post, the URL will update according to header id.
+  # when you scroll, the URL will update according to header id.
+  auto_update: true 
+  # Click the headline to scroll and update the anchor
+  click_to_scroll: true
 
 # figcaption (圖片描述文字)
 photofigcaption: true
@@ -272,6 +275,10 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+  card_post_series:
+    enable: true
+    orderBy: 'date' # Order by title or date
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
 # 訪問人數
