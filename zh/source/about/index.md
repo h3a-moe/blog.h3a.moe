@@ -37,11 +37,13 @@ H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
 
 ~~This site is also available in [English](https://blog.h3a.moe/en).~~ 英文版欠太多了，can't keep up! 咕咕咕
 
+更早期的，写得很烂的十来篇，现在已经单独放在 [archive](https://blog-archive-v1.h3a.moe/) 了。
+
 
 
 ## 关于我
 
-Hi, 这里是 `H3arn` . 读作 "Hearn", 也可呼作「安然」。
+Hi, 这里是 `H3arn` . 读作 "Hearn". 
 
 是个渺小的人。过时，愚笨，固执，绿眼。
 
@@ -80,7 +82,7 @@ e-mail:         root[at]h3a[dot]moe
 
 <!-- {% note info flat %} -->
 
-<!-- 或许你会在 `keys.openpgp.org`, `pgp.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新，但是我对使用它们造成的后果（例如过期）不会负责。 -->
+<!-- 或许你会在 `keys.openpgp.org`, `pgp.mit.edu`, `keyserver.ubuntu.com` 找到我的 key. 这些地方的 key 我会尽力更新。 -->
 
 <!-- {% endnote %} -->
 
@@ -108,33 +110,4 @@ sub   cv25519 2021-09-07 [E] [expires: 2024-07-15]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
 sub   ed25519 2021-09-07 [A] [expires: 2024-07-15]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
-``` -->
-
-<!-- 另附公钥原文一份 -->
-
-<!-- ```PGP
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
-/iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
-ZT6IkAQTFggAOAIbAQIeAQIXgAUJBV3SchYhBDZIZKOhr0F02b3nxmB2y7oj6YpX
-BQJjznKKAgsJAhUJBRYCAwEAAAoJEGB2y7oj6YpXNgEBAN/9+2vOcl7skA+13Wd1
-QQWWkGsw0iSATLiazHsD20BLAP9y+vt5IpbtsEws6WfmmsRbJlxplW64VUtwIWMQ
-N7xmArgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
-sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCYcYB
-9AUJBV3SDQCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
-CRD9EQbJRF1C0CYvAPsGsFqWbDSAAyZhLOJlJBJc3F+8ED+Y4ejwiOoUwIWS7gEA
-nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXlzkA/jDz
-QGmflbbiE1FIWRREn/sdy1ycLRjKBJzeVwT82ywMAQCyr6hetNrtOCLYE6d+Dh9m
-Dy5SH/kpSiOyQSIS75skCLg4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
-E+dRbJCUN8aUNwkfAsTAqiD7IVNzEgMBCAeIfgQYFggAJgIbDBYhBDZIZKOhr0F0
-2b3nxmB2y7oj6YpXBQJhxgIGBQkFXdHqAAoJEGB2y7oj6YpXOhQA+wT+ypTcy+rp
-KCoBHy7WJaTHNdmgF1MmHUmL7y+MRRJWAP458JR7hAZADhnj5g4jBXns2v+S6GU5
-DKosfYedsAq5ArgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
-LSsnRWPtgGXRkjQZzYXUiH4EGBYIACYCGyAWIQQ2SGSjoa9BdNm958Zgdsu6I+mK
-VwUCYcYCEQUJBV3R3AAKCRBgdsu6I+mKVyoXAP9rNr4vIwazwqQuhjnagbpMO0So
-eUkaBderdBj4dtrHfgD/XUuEKM1vbb/JPEX5B7RWADQ5jRB6vP+ltUpffciv2AU=
-=aqmi
------END PGP PUBLIC KEY BLOCK-----
-
 ``` -->
