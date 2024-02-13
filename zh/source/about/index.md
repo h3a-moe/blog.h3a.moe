@@ -25,11 +25,11 @@ updated: 2021-11-06 10:53:00
 
 ## 关于本站
 
-H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
-
-写得很细碎很偏门很 trivial, 希望能帮到需要的人（比如我自己）。
+H3arn 的博客，写得很细碎很偏门很 trivial, 希望能帮到需要的人（比如我自己）。
 
 目前仅放在 [Cloudflare Pages](https://blog-h3a-moe.pages.dev) 上，在其他平台没有部署。
+
+背景图片来自 [@hmmuk](https://twitter.com/hmrnuk) 的[画作](https://danbooru.donmai.us/posts?tags=tokoroten_(hmmuk))。
 
 <!--~~本站的 [一部分图标资源](https://hexo.fluid-dev.com/docs/icon/) 来自 [阿里云 CDN](https://at.alicdn.com/t/font_1736178_lbnruvf0jn.css) 。~~--> 
 
@@ -37,7 +37,7 @@ H3arn 的博客，主要用来记录自己的小 trick 和运维工作。
 
 ~~This site is also available in [English](https://blog.h3a.moe/en).~~ 英文版欠太多了，can't keep up! 咕咕咕
 
-更早期的，写得很烂的十来篇，现在已经单独放在 [archive](https://blog-archive-v1.h3a.moe/) 了。
+更早期的，写得很烂的十来篇，现在已经单独放在 [blog archive v1](https://blog-archive-v1.h3a.moe/) 了。
 
 
 
