@@ -1,0 +1,3 @@
+[submodule "zh/source/asset"]
+	path = zh/source/asset
+	url = https://github.com/h3a-moe/blog-asset
