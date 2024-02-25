@@ -744,7 +744,7 @@ beautify:
 font:
   global-font-size: 
   code-font-size: 
-  font-family: Ubuntu
+  font-family: Ubuntu, sans-serif
   code-font-family: 
     - 'JetBrains Mono'
     -  monospace
