@@ -1,6 +1,7 @@
     - {
       name: "Liet Blue",
       descr: "Somehow we still carry on.",
-      link: "https://liet.moe"
+      link: "https://liet.moe",
+      avatar: "https://cdn.jsdelivr.net/gh/h3a-moe/h3a-moe-asset/img/links/liet.jpg"
     }
 
